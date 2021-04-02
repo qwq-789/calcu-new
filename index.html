@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+      <div class="mx-auto p-1" style="border: 2px solid #ccc; width: 40%;">
+          <div id="displayBox" class="row m-1" style="height: 40px;border: 1 px solid;border-style:solid; #ddd">
+              <div id="displayText" class="col-12" align="right">0</div>
+          </div>
+          <div class="row m-3">
+              <div class="col-3 d-grid">
+                  <button id="7" type="button" class="btn btn-info p-3" onclick="show('7')">7</button>
+              </div>
+              <div class="col-3 d-grid">
+                  <button id="8" type="button" class="btn btn-info p-3" onclick="show('8')">8</button>
+              </div>
+              <div class="col-3 d-grid">
+                  <button id="9" type="button" class="btn btn-info p-3" onclick="show('9')">9</button>
+              </div>
+              <div class="col-3 d-grid">
+                  <button id="dis" type="button" class="btn btn-secondary p-3" onclick="dis('/')">/</button>
+              </div>
+          </div>
+                    <div class="row m-3">
+              <div class="col-3 d-grid">
+                  <button id="4" type="button" class="btn btn-info p-3" onclick="show('4')">4</button>
+              </div>
+              <div class="col-3 d-grid">
+                  <button id="5" type="button" class="btn btn-info p-3" onclick="show('5')">5</button>
+              </div>
+              <div class="col-3 d-grid">
+                  <button id="6" type="button" class="btn btn-info p-3" onclick="show('6')">6</button>
+              </div>
+              <div class="col-3 d-grid">
+                  <button id="times" type="button" class="btn btn-secondary p-3" onclick="time('*')">*</button>
+              </div>
+          </div>
+                    <div class="row m-3">
+              <div class="col-3 d-grid">
+                  <button id="1" type="button" class="btn btn-info p-3" onclick="show('1')" >1</button>
+              </div>
+              <div class="col-3 d-grid">
+                  <button id="2" type="button" class="btn btn-info p-3" onclick="show('2')">2</button>
+              </div>
+              <div class="col-3 d-grid">
+                  <button id="3" type="button" class="btn btn-info p-3" onclick="show('3')">3</button>
+              </div>
+              <div class="col-3 d-grid">
+                  <button id="miuns" type="button" class="btn btn-secondary p-3" onclick="miuns('-')">-</button>
+              </div>
+          </div>
+                    <div class="row m-3">
+              <div class="col-3 d-grid">
+                  <button id="c" type="button" class="btn btn-danger p-3" >C</button>
+              </div>
+              <div class="col-3 d-grid">
+                  <button id="0" type="button" class="btn btn-info p-3" onclick="show('0')">0</button>
+              </div>
+              <div class="col-3 d-grid">
+                  <button id="equal" type="button" class="btn btn-success p-3" onclick="result()">=</button>
+              </div>
+              <div class="col-3 d-grid">
+                  <button id="plus" type="button" class="btn btn-secondary p-3" onclick="plus('+')">+</button>
+              </div>
+          </div>
+      </div>
+  </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
